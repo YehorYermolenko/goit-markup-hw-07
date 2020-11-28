@@ -1,69 +1,51 @@
-/* Fonts */
-
-/* raleway*/
-
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/raleway/raleway/raleway-v18-latin_cyrillic-regular.woff2") format("woff2"),
-    url("../fonts/raleway-v18-latin_cyrillic-regular.woff") format("woff"),
-    url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.ttf") format("truetype"),
-    url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.svg#Raleway") format("svg"); /* Legacy iOS */
+  src: url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/raleway/raleway-v18-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/raleway-v18-latin_cyrillic-regular.woff") format("woff"), url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/raleway/raleway-v18-latin_cyrillic-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/raleway/raleway-v18-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway/raleway-v18-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/raleway/raleway-v18-latin_cyrillic-700.woff2") format("woff2"),
-    url("../fontsraleway//raleway-v18-latin_cyrillic-700.woff") format("woff"),
-    url("../fonts/raleway/raleway-v18-latin_cyrillic-700.ttf") format("truetype"),
-    url("../fonts/raleway/raleway-v18-latin_cyrillic-700.svg#Raleway") format("svg"); /* Legacy iOS */
+  src: url("../fonts/raleway/raleway-v18-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway/raleway-v18-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/raleway-v18-latin_cyrillic-700.woff2") format("woff2"), url("../fontsraleway//raleway-v18-latin_cyrillic-700.woff") format("woff"), url("../fonts/raleway/raleway-v18-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/raleway/raleway-v18-latin_cyrillic-700.svg#Raleway") format("svg");
+  /* Legacy iOS */
 }
 
-/* roboto */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local("Roboto"), local("Roboto-Regular"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
-  src: local("Roboto Medium"), local("Roboto-Medium"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-500.ttf") format("truetype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg"); /* Legacy iOS */
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
-  src: local("Roboto Bold"), local("Roboto-Bold"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-700.ttf") format("truetype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-700.svg#Roboto") format("svg"); /* Legacy iOS */
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
@@ -71,12 +53,7 @@
   font-style: normal;
   font-weight: 900;
   src: url("../fonts/roboto/roboto-v20-latin_cyrillic-900.eot");
-  src: local("Roboto Black"), local("Roboto-Black"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-900.eot") format("embedded-opentype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-900.ttf") format("truetype"),
-    url("../fonts/roboto/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg");
+  src: local("Roboto Black"), local("Roboto-Black"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.eot") format("embedded-opentype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg");
 }
 
 img {
@@ -119,7 +96,6 @@ h6 {
 }
 
 /* Body Header Footer */
-
 body * {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -164,6 +140,7 @@ header ul a:focus {
   bottom: 0px;
   bottom: -32px;
 }
+
 .mailtel-nav-mail-icon {
   display: inherit;
   width: 16px;
@@ -267,7 +244,6 @@ header ul a:focus {
 }
 
 /* Modal window */
-
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -325,7 +301,6 @@ header ul a:focus {
 }
 
 /* Modal Window Forms */
-
 .modal-form {
   color: var(--text);
 }
@@ -474,7 +449,6 @@ header ul a:focus {
 }
 
 /* Hero section */
-
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -482,8 +456,7 @@ header ul a:focus {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  background-image: radial-gradient(circle at center, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../img/Hero-backgrnd.jpg);
+  background-image: radial-gradient(circle at center, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero-backgrnd.jpg);
   background-repeat: no-repeat;
   background-position: center, center;
   background-size: cover, cover;
@@ -519,7 +492,6 @@ header ul a:focus {
 }
 
 /* Feature list section */
-
 .feature-item::before {
   display: block;
   justify-content: center;
@@ -593,7 +565,6 @@ element .feature-item {
 }
 
 /* What we do */
-
 .section .about-us-title {
   font-weight: 700;
   font-size: 36px;
@@ -635,7 +606,6 @@ element .feature-item {
 }
 
 /* Our team */
-
 .our-team {
   background-color: var(--feature-item-svg-bckgrnd);
   padding-top: 94px;
@@ -684,7 +654,6 @@ element .feature-item {
 }
 
 /* Social Links Card */
-
 .social-links {
   display: flex;
   list-style: none;
@@ -736,7 +705,6 @@ element .feature-item {
 }
 
 /* Our Clients */
-
 .our-clients-section {
   padding-top: 94px;
 }
@@ -792,7 +760,6 @@ element .feature-item {
 }
 
 /* Footer */
-
 .logo-footer {
   font-family: Raleway;
   font-weight: bold;
@@ -843,7 +810,6 @@ element .feature-item {
 }
 
 /* Footer Social Links */
-
 .footer--social-links-heading {
   margin-top: 12px;
   font-weight: 700;
@@ -901,7 +867,6 @@ element .feature-item {
 }
 
 /* Footer Subscribe */
-
 .subscribe-container {
   margin-left: 93px;
 }
@@ -977,3 +942,4 @@ element .feature-item {
   margin-left: 10px;
   align-items: center;
 }
+/*# sourceMappingURL=main.css.map */
