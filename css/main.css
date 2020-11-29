@@ -487,7 +487,6 @@ header ul a:focus {
   letter-spacing: 0.06em;
 }
 
-/* Feature list section */
 .feature-item::before {
   display: block;
   justify-content: center;
@@ -560,7 +559,6 @@ element .feature-item {
   color: var(--text);
 }
 
-/* What we do */
 .section .about-us-title {
   font-weight: 700;
   font-size: 36px;
@@ -601,7 +599,6 @@ element .feature-item {
   margin-left: 30px;
 }
 
-/* Our team */
 .our-team {
   background-color: var(--feature-item-svg-bckgrnd);
   padding-top: 94px;
@@ -649,7 +646,6 @@ element .feature-item {
   margin-top: 10px;
 }
 
-/* Social Links Card */
 .social-links {
   display: flex;
   list-style: none;
@@ -700,7 +696,6 @@ element .feature-item {
   background-color: var(--logo-web);
 }
 
-/* Our Clients */
 .our-clients-section {
   padding-top: 94px;
 }
@@ -755,7 +750,6 @@ element .feature-item {
   fill: var(--logo-web);
 }
 
-/* Footer */
 .logo-footer {
   font-family: Raleway;
   font-weight: bold;
@@ -805,7 +799,6 @@ element .feature-item {
   margin-left: 70px;
 }
 
-/* Footer Social Links */
 .footer--social-links-heading {
   margin-top: 12px;
   font-weight: 700;
@@ -862,7 +855,6 @@ element .feature-item {
   background-color: var(--logo-web);
 }
 
-/* Footer Subscribe */
 .subscribe-container {
   margin-left: 93px;
 }

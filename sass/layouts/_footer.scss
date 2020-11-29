@@ -1,0 +1,48 @@
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--white);
+}
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  font-style: normal;
+}
+
+.contacts-list {
+  margin-top: 20px;
+}
+
+.footer .contacts-list li {
+  margin-bottom: 9px;
+  list-style: none;
+}
+
+.footer .list {
+  padding: 0;
+}
+
+.footer .mailtel {
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-social-links-container {
+  margin-left: 70px;
+}
