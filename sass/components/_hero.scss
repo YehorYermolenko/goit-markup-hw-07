@@ -1,7 +1,7 @@
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--hero-bckgr);
+  background-color: $hero-bckgr;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -20,7 +20,7 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
 }
 
 .hero-button {
@@ -29,7 +29,7 @@
   width: 200px;
   height: 50px;
   text-align: center;
-  background-color: var(--logo-web);
+  background-color: $logo-web;
   border: 0px;
 }
 
@@ -37,6 +37,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--white);
+  color: $white;
   letter-spacing: 0.06em;
 }

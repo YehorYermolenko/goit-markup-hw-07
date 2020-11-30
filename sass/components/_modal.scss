@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--modal-window-background);
+  background-color: $modal-window-background;
   z-index: 100;
   opacity: 1;
   transition: all 0.5s ease-in;
@@ -24,7 +24,7 @@
   transform: translate(-50%, -50%) scale(1);
   width: 528px;
   height: 581px;
-  background-color: var(--white);
+  background-color: $white;
   padding: 40px;
   transition: transform 0.5s;
   z-index: 50;
@@ -37,7 +37,7 @@
   display: inline-flex;
   top: 8px;
   right: 8px;
-  background-color: var(--white);
+  background-color: $white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
@@ -50,12 +50,12 @@
 
   &:hover,
   &:focus {
-    fill: var(--logo-web);
+    fill: $logo-web;
   }
 }
 
 .modal-form {
-  color: var(--text);
+  color: $text;
 }
 
 .name-form-icon {
@@ -88,7 +88,7 @@
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title);
+  color: $title;
   margin-bottom: 12px;
 }
 
@@ -107,9 +107,9 @@
 .field:hover,
 .field:focus + .modal-icon,
 .field:focus {
-  border-color: var(--logo-web);
+  border-color: $logo-web;
   transition: all 0.5s ease-in;
-  fill: var(--logo-web);
+  fill: $logo-web;
 }
 
 .comment-field {
@@ -126,7 +126,7 @@
 
   &:hover,
   &:focus {
-    border-color: var(--logo-web);
+    border-color: $logo-web;
     transition: all 0.2s ease-in;
   }
 }
@@ -157,7 +157,7 @@
 
 .modal-checkbox-input:focus + .checkbox-check {
   outline: 2px green;
-  background-color: var(--logo-web);
+  background-color: $logo-web;
   background-image: url(../svg/check.svg);
 }
 
@@ -166,7 +166,7 @@
 }
 
 .agreement-link {
-  color: var(--logo-web);
+  color: $logo-web;
 }
 
 .modal-button-div {
@@ -181,7 +181,7 @@
   width: 200px;
   height: 50px;
   text-align: center;
-  background-color: var(--logo-web);
+  background-color: $logo-web;
   border: 0px;
   cursor: pointer;
 
@@ -198,6 +198,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--white);
+  color: $white;
   letter-spacing: 0.06em;
 }

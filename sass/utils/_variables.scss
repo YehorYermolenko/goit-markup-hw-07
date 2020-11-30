@@ -23,16 +23,14 @@ h6 {
   margin-top: 0;
 }
 
-:root {
-  --logo-web: #2196f3;
-  --background-color: #f5f4fa;
-  --text: #757575;
-  --white: #ffffff;
-  --logo-header: #000000;
-  --title: #212121;
-  --hero-bckgr: #2f303a;
-  --icon-color: #afb1b8;
-  --feature-item-svg-bckgrnd: #f5f4fa;
-  --footer-social-back-color: rgba(255, 255, 255, 0.1);
-  --modal-window-background: rgba(0, 0, 0, 0.2);
-}
+$logo-web: #2196f3;
+$background-color: #f5f4fa;
+$text: #757575;
+$white: #ffffff;
+$logo-header: #000000;
+$title: #212121;
+$hero-bckgr: #2f303a;
+$icon-color: #afb1b8;
+$feature-item-svg-bckgrnd: #f5f4fa;
+$footer-social-back-color: rgba(255, 255, 255, 0.1);
+$modal-window-background: rgba(0, 0, 0, 0.2);

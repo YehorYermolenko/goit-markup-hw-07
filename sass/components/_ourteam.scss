@@ -1,5 +1,5 @@
 .our-team {
-  background-color: var(--feature-item-svg-bckgrnd);
+  background-color: $feature-item-svg-bckgrnd;
   padding-top: 94px;
 }
 
@@ -13,7 +13,7 @@
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--white);
+  background-color: $white;
 
   &:not(:first-child) {
     margin-left: 30px;
@@ -26,7 +26,7 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--title);
+  color: $title;
   margin-bottom: 50px;
 }
 
@@ -35,12 +35,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--title);
+  color: $title;
 }
 
 .our-team-profession {
   font-size: 16px;
   line-height: 1.19;
-  color: var(--text);
+  color: $text;
   margin-top: 10px;
 }

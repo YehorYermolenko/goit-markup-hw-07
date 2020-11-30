@@ -3,7 +3,7 @@ body * {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--text);
+  color: $text;
   margin: 0;
 }
 
@@ -22,8 +22,8 @@ footer * {
 
 header ul a:hover,
 header ul a:focus {
-  color: var(--logo-web);
-  fill: var(--logo-web);
+  color: $logo-web;
+  fill: $logo-web;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -38,7 +38,7 @@ header ul a:focus {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--logo-web);
+  background-color: $logo-web;
   bottom: 0px;
   bottom: -32px;
 }
@@ -115,11 +115,11 @@ header ul a:focus {
 }
 
 .site-nav a {
-  color: var(--logo-header);
+  color: $logo-header;
 }
 
 .mailtel-nav {
-  color: var(--text);
+  color: $text;
   margin-left: auto;
 }
 
@@ -132,7 +132,7 @@ header ul a:focus {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--logo-web);
+  color: $logo-web;
 }
 
 .logo {
@@ -142,5 +142,5 @@ header ul a:focus {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--logo-header);
+  color: $logo-header;
 }
