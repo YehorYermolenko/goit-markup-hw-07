@@ -1,22 +1,22 @@
 .examples-item a {
   text-decoration: none;
-}
 
-.examples-item .name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title);
-  padding-bottom: 4px;
-  margin: 0px auto;
-}
+  .name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title);
+    padding-bottom: 4px;
+    margin: 0px auto;
+  }
 
-.examples-item .type {
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--text);
-  letter-spacing: 0.03em;
+  .type {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--text);
+    letter-spacing: 0.03em;
+  }
 }
 
 .examples-item-descr {

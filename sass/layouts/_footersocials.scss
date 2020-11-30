@@ -31,10 +31,10 @@
 .footer-social-links-item {
   display: block;
   background-color: var(--hero-bckgr);
-}
 
-.footer-social-links-item:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .footer-social-links-icon {

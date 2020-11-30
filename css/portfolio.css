@@ -242,13 +242,6 @@ header ul a:focus {
   color: var(--logo-header);
 }
 
-.port-nav-button-link:hover,
-.port-nav-button-link:focus {
-  color: var(--white);
-  background-color: var(--logo-web);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
 .port-list {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -282,6 +275,12 @@ header ul a:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.port-nav-button-link:hover, .port-nav-button-link:focus {
+  color: var(--white);
+  background-color: var(--logo-web);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .port-nav-button .item:not(:last-child) {
   margin-right: 8px;
 }
@@ -300,7 +299,7 @@ header ul a:focus {
   text-decoration: none;
 }
 
-.examples-item .name {
+.examples-item a .name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -310,7 +309,7 @@ header ul a:focus {
   margin: 0px auto;
 }
 
-.examples-item .type {
+.examples-item a .type {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text);
@@ -414,10 +413,6 @@ header ul a:focus {
   font-style: normal;
 }
 
-.contacts-list {
-  margin-top: 20px;
-}
-
 .footer .contacts-list li {
   margin-bottom: 9px;
   list-style: none;
@@ -431,6 +426,10 @@ header ul a:focus {
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-list {
+  margin-top: 20px;
 }
 
 .footer-container {

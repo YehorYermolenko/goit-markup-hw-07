@@ -18,6 +18,10 @@
 
 .what-we-do-img {
   position: relative;
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 
 .what-we-do-overlay {
@@ -32,8 +36,4 @@
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.what-we-do-img:not(:first-child) {
-  margin-left: 30px;
 }
